@@ -29,6 +29,7 @@
       </a-layout-sider>
       <a-layout-content>
         <Viewer
+          :debug="true"
           :url="wsServer"
           :reconnect-time="3000"
           :click-topic="clickTopic"
@@ -254,11 +255,11 @@ const getDefaultOptions = (type: string) => {
   } else if (type === 'LaserScan') {
     return {
       color: '#FF0000',
-      size: 0.01,
+      size: 1,
     };
   } else if (type === 'PointCloud2') {
     return {
-      size: 0.01,
+      size: 1,
       decayTime: 0,
       max_point_count: 0,
       colorType: 'FlatColor',

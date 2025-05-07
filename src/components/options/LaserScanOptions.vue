@@ -60,8 +60,8 @@ defineEmits<{
       <a-form-item label="Size">
         <a-input-number
           :model-value="modelValue.size"
-          :min="0.01"
-          :step="0.01"
+          :min="1"
+          :step="1"
           @change="
             (v) => $emit('update:modelValue', { ...props.modelValue, size: v })
           "

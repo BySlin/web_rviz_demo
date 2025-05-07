@@ -63,8 +63,8 @@ defineEmits<{
       <a-form-item label="Size">
         <a-input-number
           :model-value="modelValue.size"
-          :min="0.01"
-          :step="0.01"
+          :min="1"
+          :step="1"
           @change="
             (v) => $emit('update:modelValue', { ...props.modelValue, size: v })
           "
@@ -114,6 +114,7 @@ defineEmits<{
         >
           <a-option value="FlatColor">FlatColor</a-option>
           <a-option value="RGB8">RGB8</a-option>
+          <a-option value="Intensity">Intensity</a-option>
         </a-select>
       </a-form-item>
     </a-form>
