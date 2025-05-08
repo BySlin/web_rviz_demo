@@ -84,10 +84,9 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 import { ArrowUpRight } from 'lucide-vue-next';
-import GlobalOptions from './components/options/GlobalOptions.vue';
-import { Channel } from '@foxglove/ws-protocol';
 import { OptionComponents } from './components/options';
-import { Viewer, ViewerComponents } from '@byslin/web_rviz';
+import { Channel, Viewer, ViewerComponents } from '@byslin/web_rviz';
+import GlobalOptions from './components/options/GlobalOptions.vue';
 
 type TFTreeNode = {
   key: string;
