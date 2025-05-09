@@ -297,6 +297,12 @@ const getDefaultOptions = (type: string) => {
     return {
       color: getRandomVibrantHexColor(),
     };
+  } else if (type === 'Octomap') {
+    return {
+      opacity: 1.0,
+      colorMode: 'zAxisColor',
+      voxelRenderMode: 'occupied',
+    };
   }
 };
 </script>

@@ -13,6 +13,7 @@ import PoseArrayOptions from './PoseArrayOptions.vue';
 import PoseWithCovarianceStampedOptions from './PoseWithCovarianceStampedOptions.vue';
 import URDFOptions from './URDFOptions.vue';
 import LaserScanOptions from './LaserScanOptions.vue';
+import OctomapOptions from './OctomapOptions.vue';
 
 export const OptionComponents = {
   Grid: GridOptions,
@@ -30,4 +31,5 @@ export const OptionComponents = {
   PoseStamped: PoseStampedOptions,
   PoseArray: PoseArrayOptions,
   PoseWithCovarianceStamped: PoseWithCovarianceStampedOptions,
+  Octomap: OctomapOptions,
 };
