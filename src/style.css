@@ -32,5 +32,13 @@ body {
     height: 100%;
 }
 
+#stats {
+    position: absolute;
+    left: unset !important;
+    top: unset !important;
+    bottom: 5px;
+    right: 5px;
+}
+
 
 
