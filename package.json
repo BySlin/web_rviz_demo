@@ -10,17 +10,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@arco-design/web-vue": "^2.56.3",
-    "@byslin/web_rviz": "^1.0.6",
-    "@vueuse/core": "^12.8.0",
-    "lucide-vue-next": "^0.477.0",
+    "@arco-design/web-vue": "^2.57.0",
+    "@byslin/web_rviz": "^1.0.7",
+    "@vueuse/core": "^13.1.0",
+    "lucide-vue-next": "^0.509.0",
     "vue": "^3.5.13"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.2.1",
-    "less": "^4.2.2",
-    "prettier": "^3.5.2",
-    "typescript": "~5.7.3",
-    "vite": "^6.2.0"
+    "@vitejs/plugin-vue": "^5.2.4",
+    "less": "^4.3.0",
+    "prettier": "^3.5.3",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5"
   }
 }
