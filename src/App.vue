@@ -273,6 +273,7 @@ const getDefaultOptions = (type: string) => {
     return {
       color: getRandomVibrantHexColor(),
       offsetZ: 0.1,
+      linewidth: 2,
     };
   } else if (type === 'PointStamped') {
     return {

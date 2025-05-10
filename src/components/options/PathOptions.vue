@@ -9,6 +9,7 @@ interface Props {
   modelValue: {
     color: string;
     topic: string;
+    linewidth: number;
   };
   index: number;
 }
@@ -63,6 +64,21 @@ defineEmits<{
           disabled-alpha
           @change="
             (v) => $emit('update:modelValue', { ...props.modelValue, color: v })
+          "
+        />
+      </a-form-item>
+      <a-form-item label="Line Width">
+        <a-input-number
+          :model-value="modelValue.linewidth"
+          :min="1"
+          :step="1"
+          :max="100"
+          @change="
+            (v) =>
+              $emit('update:modelValue', {
+                ...props.modelValue,
+                linewidth: v,
+              })
           "
         />
       </a-form-item>

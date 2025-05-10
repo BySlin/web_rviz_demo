@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@arco-design/web-vue": "^2.57.0",
-    "@byslin/web_rviz": "^1.0.8",
+    "@byslin/web_rviz": "^1.0.10",
     "@vueuse/core": "^13.1.0",
     "lucide-vue-next": "^0.509.0",
     "vue": "^3.5.13"
